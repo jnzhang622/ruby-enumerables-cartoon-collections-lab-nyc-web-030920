@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)an argument here
   # Your code here
   index = 0
-  dwarves.each do
+  dwarves.each {|dwarf| num.reverse!}
     puts  /#{index + 1} #{dwarves[index]}/
   end
     
