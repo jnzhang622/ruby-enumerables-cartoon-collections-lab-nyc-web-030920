@@ -2,7 +2,6 @@ def roll_call_dwarves(dwarves)an argument here
   # Your code here
   index = 0
   dwarves.each {|dwarf| puts /{index + 1} {dwarves[index]}/}
-    puts  /#{index + 1} #{dwarves[index]}/
   end
     
 end
