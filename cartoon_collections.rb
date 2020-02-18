@@ -1,4 +1,4 @@
-def roll_call_dwarves(arr)an argument here
+def roll_call_dwarves(arr)
   # Your code here
   arr.each_with_index {|i,x| puts "#{x+1} #{i}"}
 
