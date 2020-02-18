@@ -1,5 +1,10 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(dwarves)an argument here
   # Your code here
+  index = 0
+  while index < dwarves.length do
+    puts  /#{index + 1} #{dwarves[index]}/
+  end
+    
 end
 
 def summon_captain_planet# code an argument here
