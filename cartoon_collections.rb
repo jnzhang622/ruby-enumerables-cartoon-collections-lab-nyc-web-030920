@@ -8,7 +8,8 @@ end
 
 def summon_captain_planet(arg)# code an argument here
   # Your code here
-  return arg.size
+  result =  arg.size
+  puts result
 end
 
 def long_planeteer_calls# code an argument here
