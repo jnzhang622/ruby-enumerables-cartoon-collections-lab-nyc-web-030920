@@ -1,4 +1,4 @@
-def roll_call_dwarves(arr)
+def roll_call_dwarves(dwarves)
   # Your code here
     dwarves.each_with_index do |name, index|
     index += 1
