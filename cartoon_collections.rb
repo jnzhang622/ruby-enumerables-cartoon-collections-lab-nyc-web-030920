@@ -8,8 +8,9 @@ end
 
 def summon_captain_planet(arg)# code an argument here
   # Your code here
-  result =  arg.size
-  puts result
+  arg = arg.collect { |i| i+"!"}
+    arg = arg.map { |c| c.capitalize }
+   return arg
 end
 
 def long_planeteer_calls# code an argument here
